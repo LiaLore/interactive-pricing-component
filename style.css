@@ -1,0 +1,302 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: monrope;
+
+}
+
+.container {
+    /* overflow:auto; */
+    min-height: 800px;
+    background-color: #FFF;
+}
+
+.firstPart {
+    height: 55vh;
+    border-radius: 0px 0px 0px 191.5px;
+    background: #F1F5FE;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.ln {
+    border-radius: 5px;
+    background: #F1F5FE;
+    width: 279px;
+    height: 8px;
+    flex-shrink: 0;
+    margin-top: 25px;
+}
+
+.range {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.range img {
+    background-color: #11D8C4;
+    padding: 16px;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -32px;
+}
+
+.title {
+    background-image: url(./images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    flex-direction: column;
+    height: 146px;
+    margin-top: 5vh;
+}
+
+.title h1 {
+    color: #293356;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title p {
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    width: 15vw;
+}
+
+.main {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
+    /* height: 55vh; */
+    flex-shrink: 0;
+    margin: 0 24px;
+    margin-top: -20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
+    border-top-color:#ECF0FB;
+    border-width: 1px;
+}
+
+.main h3 {
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.714px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.price {
+    color: #293356;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+.price span {
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.secPart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.secPart p {
+    color: #848EAD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+}
+
+.twentyfive {
+    color: #FF8D68;
+    background-color: #FEEDE8;
+    padding: 5px 10px;
+    margin: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.thirdPart p{
+    color: #848EAD;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 5px 10px;
+}
+.img{
+    margin-right: 10px;
+}
+
+button{
+    color: #BECDFF;
+text-align: center;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px 46px;
+border-radius: 20.5px;
+background: #293356;
+margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 43px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
